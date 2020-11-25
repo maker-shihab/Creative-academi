@@ -1,0 +1,588 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*::after,
+*::before {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+:root {
+  --p-color: #00aeed;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.7rem;
+  font-family: "Lato", sans-serif;
+  color: #fff;
+  line-height: 1.3;
+  font-weight: 400;
+}
+
+ul,
+li {
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.section-title {
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.section-paragrap {
+  color: #000;
+  font-size: 1.7rem;
+  line-height: 2.5rem;
+}
+
+.some-padding {
+  padding: 5rem 0;
+}
+
+.section-padding {
+  padding: 8rem 0;
+}
+
+.btnPrimary {
+  color: #fff;
+  background: #00aeed;
+  font-size: 1.6rem;
+  padding: 1.2rem 3rem;
+  border-radius: 2.5rem;
+  display: inline-block;
+  margin-top: 3.5rem;
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  border: 2px solid transparent;
+}
+
+.btnPrimary:hover {
+  background: transparent;
+  border: 2px solid #00aeed;
+  color: #00aeed;
+}
+
+/* Template customize Css Hear */
+.header-area {
+  background: url(../Images/banner.jpg) no-repeat scroll 0 0 / cover;
+  position: relative;
+  height: 100vh;
+}
+
+.nav-area .row {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+
+.logo-bars {
+  display: none;
+}
+
+.logo-bars i {
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+.menu {
+  position: relative;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 9999;
+  background: var(--p-color);
+}
+
+.menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.menu ul li a {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1.4rem;
+  padding: 1.2rem 2rem;
+  font-weight: 700;
+  display: inline-block;
+  position: relative;
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.menu ul li a:hover {
+  color: #47408d;
+}
+
+.header-content .row {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transform: translateY(11rem);
+  -ms-transform: translateY(11rem);
+  transform: translateY(11rem);
+}
+
+.header-heading h1 {
+  font-size: 7.2rem;
+  font-weight: 900;
+  line-height: 8rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* ===========Who are area========== */
+.who-are .row {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.who-are-text h2 {
+  color: #000;
+}
+
+.who-are-text p {
+  color: #000;
+}
+
+.who-are-brand {
+  padding-top: 9rem;
+}
+
+/* ===========Our Ecpreance area========== */
+
+.our-expreance-area {
+  background: url(../Images/slaider-bg.jpg) no-repeat scroll 0 0 / cover;
+}
+
+.expreance-content {
+  position: relative;
+}
+
+/* 
+.expreance-content::after {
+  content: url(../Images/dodo.png);
+  position: absolute;
+  top: -10.3rem;
+  left: -45rem;
+  height: 55%;
+  width: auto;
+} */
+
+.expreance-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.center-info .section-paragrap {
+  max-width: 55rem;
+  color: #fff;
+  text-align: justify;
+  padding: 0 2rem;
+  margin-top: 1.5rem;
+}
+
+.img-info {
+  max-width: 8rem;
+  height: 5rem;
+}
+
+.img-info img {
+  width: 100%;
+  height: 100%;
+}
+
+.expreance-title h3 {
+  font-size: 3rem;
+  font-weight: 400;
+  padding: 4rem 0 1rem 0;
+}
+
+.our-expreance .expreance-title p {
+  font-size: 1.5rem;
+}
+
+.our-expreance.owl-theme .owl-dots .owl-dot {
+  outline: none;
+}
+
+.our-expreance.owl-theme .owl-dots .owl-dot span {
+  background: #fff;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.our-expreance.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #00aeed;
+}
+
+/* ===========Our services area========== */
+.secvices-area {
+  background: url(../Images/services.jpg) no-repeat scroll 0 0 / cover;
+}
+
+.services-header {
+  text-align: center;
+}
+
+.services-header h2,
+.services-header p {
+  color: #fff;
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.service-item {
+  text-align: center;
+  -webkit-transition: .3s linear;
+  -o-transition: .3s linear;
+  transition: .3s linear;
+  padding: 2rem 0;
+}
+
+.service-item:hover {
+  background: var(--p-color);
+}
+
+.service-item i {
+  font-size: 3.5rem;
+  color: #fff;
+  height: 7rem;
+  width: 7rem;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 6.2rem;
+}
+
+.service-item h3 {
+  font-weight: 700;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  padding: 3rem 0;
+}
+
+.service-item p {
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+/* ===========Who do area========== */
+.we-do-are .row {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.we-do-are .section-title {
+  text-align: center;
+  padding-bottom: 0;
+}
+
+.we-do-ofset img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.we-do-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.we-do-item:hover h3,
+.we-do-item:hover i {
+  color: var(--p-color);
+}
+
+.we-do-item h3 {
+  color: #000;
+  font-weight: 700;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  -webkit-transition: .3s linear;
+  -o-transition: .3s linear;
+  transition: .3s linear;
+}
+
+.we-do-text p {
+  color: #000;
+  margin-top: 2rem;
+}
+
+.we-do-icone i {
+  color: #000;
+  font-size: 4.5rem;
+  padding-left: 1rem;
+  height: 7rem;
+  -webkit-transition: .3s linear;
+  -o-transition: .3s linear;
+  transition: .3s linear;
+  width: 7rem;
+}
+
+.we-do-text {
+  margin: 2rem;
+}
+
+/* ===========Who do area========== */
+.news-area {
+  margin-bottom: 8rem;
+}
+
+.news-title {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.news-item h3 {
+  color: #000;
+  font-weight: 700;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  padding-top: 4.5rem;
+}
+
+.news-item p {
+  color: #000;
+  margin-top: 2rem;
+}
+
+/* ===========Who do area========== */
+.social-area {
+  background: url(../Images/full-section.jpg) no-repeat scroll 0 0 / cover;
+}
+
+.socail-icone ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-column-gap: 1rem;
+  -moz-column-gap: 1rem;
+  column-gap: 1rem;
+  row-gap: 2rem;
+}
+
+.socail-icone ul li a i {
+  color: #fff;
+  font-size: 3rem;
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  text-align: center;
+  line-height: 7rem;
+  display: inline-block;
+  -webkit-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+
+.socail-icone ul li a i:hover {
+  -webkit-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+  background: #00aeed;
+  border-color: #00aeed;
+}
+
+.contact-addresh-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.addresh-text h4 {
+  color: #000;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 3rem;
+}
+
+.addresh-text a {
+  color: #8c8c8c;
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+
+.addresh-text a:hover {
+  border-bottom: 1px solid #ddd;
+}
+
+.contact-addresh-item:hover h4,
+.contact-addresh-item:hover i {
+  color: var(--p-color);
+}
+
+.addresh-icone i {
+  color: #000;
+  font-size: 4rem;
+}
+
+.addresh-icone {
+  height: 7rem;
+  width: 7rem;
+  padding-left: 2rem;
+}
+
+.addresh-text {
+  padding-left: 2rem;
+}
+
+/* form design  */
+.contact .row {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.contact form {
+  -webkit-box-shadow: 0 0 10px 2px #ddd;
+  box-shadow: 0 0 10px 2px #ddd;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.form-item input[type="text"],
+.form-item input[type="email"],
+textarea {
+  padding: 1rem 2rem;
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  background: #00aeed25;
+  margin-bottom: 1.5rem;
+  -webkit-transition: .3s linear;
+  -o-transition: .3s linear;
+  transition: .3s linear;
+}
+
+.form-item input[type="text"]:hover,
+.form-item input[type="email"]:hover,
+.form-item textarea:hover {
+  border-color: var(--p-color);
+}
+
+.form-item input[type="text"]:focus,
+.form-item input[type="email"]:focus,
+.form-item textarea:focus {
+  -webkit-box-shadow: 0 0 10px 2px #ddd;
+  box-shadow: 0 0 10px 2px #ddd;
+  border-color: #00aeed;
+  background: transparent;
+}
+
+#submit-button {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* footer area */
+
+.footer-area {
+  background: #062736;
+}
+
+.cradit {
+  text-align: center;
+}
+
+.cradit p {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+.cradit h3 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 2.2rem;
+}

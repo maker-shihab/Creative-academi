@@ -1,0 +1,104 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {}
+
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 991.98px) {
+    .menu ul {
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .menu ul {
+        display: none;
+        position: absolute;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        background: var(--p-color);
+        z-index: 9999;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .menu ul li a {
+        padding: 1rem 0;
+    }
+
+    .logo-bars {
+        display: block;
+    }
+
+    .header-brand {
+        display: none;
+    }
+
+    .header-text {
+        text-align: center;
+    }
+
+    .who-are-brand {
+        padding-top: 0;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .header-heading h1 {
+        font-size: 5.2rem;
+    }
+
+    .who-are .row {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+    }
+
+    .services-header h2,
+    .services-header p {
+        max-width: 90%;
+    }
+
+    .socail-icone ul li a i {
+        font-size: 2rem;
+        height: 5rem;
+        width: 5rem;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        text-align: center;
+        line-height: 5rem;
+    }
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .we-do-item {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        text-align: center;
+    }
+}
